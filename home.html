@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroHub - Electronics Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Electronex</h1>
+        </div>
+        <nav>
+            <ul class="categories">
+                <li><a href="#" class="category-link" data-category="all">All Products</a></li>
+                <li><a href="#" class="category-link" data-category="smartphones">Smartphones</a></li>
+                <li><a href="#" class="category-link" data-category="laptops">Laptops</a></li>
+                <li><a href="#" class="category-link" data-category="headphones">headphones</a></li>
+                <li><a href="#" class="category-link" data-category="cameras">Cameras</a></li>
+                <li><a href="#" class="category-link" data-category="accessories">Accessories</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="cart.html" class="cart-btn">Cart (<span id="cart-count">0</span>)</a>
+            <button class="logout-btn">Logout</button>
+        </div>
+    </header>
+    
+    <main>
+        <div class="banner">
+            <h2>Latest Electronics Collection</h2>
+            <p>Up to 30% Off on Selected Items</p>
+        </div>
+        
+        <div class="products-container" id="products">
+            <!-- Products will be loaded here by JavaScript -->
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 ElectroHub. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
